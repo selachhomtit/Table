@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{ font-family : Arial, Helvetica, sans-serif;}     
+       select {
+            padding: 8px 15px 8px 15px;
+            border: none;
+            background-color: whitesmoke;
+            border-radius: 4px;
+
+        }
+        form {
+            margin: auto;
+            max-width: 320px;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: white;
+        }
+        body {
+            background-color: whitesmoke;
+        }
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+        }
+        label {
+            font-size: 12px;
+            color: rgb(0, 0, 0);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <div>
+            <label for="subject">Choose your subject</label>
+        <select name="subject" id="subject">
+            <option selected disabled>Select subject</option>
+            <option value="1">C++ Programming</option>
+            <option value="2">HTML</option>
+            <option value="3">CSS</option>
+            <option value="4">JavaScript</option>
+            <option value="5">Python</option>
+            <option value="6">Tailwind CSS</option>
+        </select>
+        </div>
+    </form>
+</body>
+</html>
